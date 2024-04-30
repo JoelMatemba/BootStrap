@@ -324,13 +324,13 @@
 
 @media (max-width: 576px) {
   h2 {
-    font-size: 18px;
+    font-size: 22px;
   }
   .navigation .container {
     height: 60px;
   }
   .navigation p {
-    font-size: 14px;
+    font-size: 18px;
   }
   .banner {
     padding-top: 27px;
@@ -346,11 +346,11 @@
     font-size: 10px;
   }
   .banner p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .portfolio {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 34px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 0px;
@@ -360,9 +360,11 @@
     height: 30vh;
     -o-object-fit: cover;
        object-fit: cover;
-    margin-top: 0px;
     padding-bottom: 0px;
-    margin-top: 6px;
+    margin-top: 23px;
+  }
+  .portfolio .images {
+    padding-bottom: 0px;
   }
   .portfolio .col-md-4 {
     margin: 0px;
@@ -371,15 +373,12 @@
   .portfolio .g-4 {
     margin: 5px;
   }
-  .portfolio .contpics {
-    padding-top: 16px;
-  }
   .about {
     padding-top: 40px;
     padding-bottom: 40px;
   }
   .about p {
-    font-size: 10px;
+    font-size: 14px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 0px;
@@ -414,7 +413,7 @@
   .contact .form-control {
     width: 312px;
     margin-right: 0px;
-    font-size: 12px;
+    font-size: 16px;
     padding: 20px;
   }
   .contact h2 {
@@ -436,7 +435,7 @@
   .contact .message {
     width: 312px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 16px;
     padding-left: 22px;
   }
   .contact .container {
@@ -444,9 +443,9 @@
   }
   .contact .send {
     margin-bottom: 0px;
-    margin-top: 3px;
-    font-size: 12px;
-    width: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 62px;
     padding: 5px;
   }
   .footer {
@@ -454,17 +453,17 @@
     padding-bottom: 15px;
   }
   .footer h4 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .footer p {
-    font-size: 10px;
-    margin-bottom: 13px;
+    font-size: 14px;
+    margin-bottom: 34px;
   }
   .footer i {
     padding: 5px;
   }
   .footer .icons {
-    padding-bottom: 10px;
+    padding-bottom: 34px;
   }
   .footer .row {
     display: flex;
@@ -477,7 +476,7 @@
   }
   .copy p {
     padding: 10px;
-    font-size: 6px;
+    font-size: 10px;
   }
   .copy .fa {
     font-size: 10px;
