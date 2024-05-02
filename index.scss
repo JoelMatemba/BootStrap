@@ -39,8 +39,20 @@ $linetwo:2px;
 // Border-icons
 $lineone:1px;
 
+.navigation.scrolled{
+    background-color: rgb(166, 167, 168);
+    opacity: 100%;
+}
+.navigation.scrolled.nav a{
+    color: greenyellow;
+
+}
 
 @mixin navigation{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.6s ease-in-out; 
     font-family: Montserrat;
     background-color: $b-grd-color-light-gray;
    
@@ -63,6 +75,7 @@ $lineone:1px;
        font-size: 18px;
        text-decoration: none;
        color: $white;
+       transition:color 0.6s ease-in-out;
 
    }
 
