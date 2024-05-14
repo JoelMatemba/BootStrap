@@ -264,6 +264,11 @@ $lineone:1px;
        color: $white;
 }
 
+p{
+
+    font-size: 20px;
+}
+
 .row{
     margin-left: 52px;
     margin-right: 52px;
@@ -450,6 +455,7 @@ h2{
    border-left: none;
    border-right: none;
     padding: 25px;
+    // font-size: 24px;
  }
  
 .forms{
@@ -911,6 +917,11 @@ h2{
 
         }
 
+        p{
+
+            font-size: 22px;
+        }
+
     }
 
     .portfolio{
@@ -927,9 +938,41 @@ h2{
         .message{
 
             width: 600px;
+            font-size: 25px;
+        }
+
+        .form-control{
+
+            font-size: 24px;
+        }
+
+        a{
+
+            font-size: 24px;
         }
 
     }
 
 
+}
+
+@media only screen and (min-width:1399.98px)  {
+
+
+    .portfolio{
+
+        img{
+            height: 38vh;
+        }
+
+    }
+
+    .contact{
+
+        .message{
+            width: 967px;
+        }
+        
+    }
+    
 }

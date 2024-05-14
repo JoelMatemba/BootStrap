@@ -178,6 +178,9 @@
   text-align: center;
   color: #ffffff;
 }
+.about p {
+  font-size: 20px;
+}
 .about .row {
   margin-left: 52px;
   margin-right: 52px;
@@ -568,10 +571,28 @@
   .banner img {
     height: 25vh;
   }
+  .banner p {
+    font-size: 22px;
+  }
   .portfolio img {
     height: 15vh;
   }
   .contact .message {
     width: 600px;
+    font-size: 25px;
+  }
+  .contact .form-control {
+    font-size: 24px;
+  }
+  .contact a {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1399.98px) {
+  .portfolio img {
+    height: 38vh;
+  }
+  .contact .message {
+    width: 967px;
   }
 }/*# sourceMappingURL=index.css.map */
