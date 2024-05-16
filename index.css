@@ -608,6 +608,9 @@
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  .portfolio .row {
+    padding: 32px;
+  }
   .portfolio img {
     height: 36vh;
   }
