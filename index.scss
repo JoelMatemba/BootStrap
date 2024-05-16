@@ -266,7 +266,13 @@ $lineone:1px;
 
 p{
 
-    font-size: 20px;
+    font-size: 18px;
+    width: 362px;
+}
+
+.olla{
+    margin-left: 125px;
+
 }
 
 .row{
@@ -454,7 +460,7 @@ h2{
    border-top: none;
    border-left: none;
    border-right: none;
-    padding: 25px;
+    padding: 22px;
     // font-size: 24px;
  }
  
@@ -509,6 +515,7 @@ h2{
             .container{
                 height: 60px;
             }
+
         p{
 
             font-size: 18px;
@@ -616,7 +623,13 @@ h2{
         padding-right: 50px;
         margin: 0px;
         padding-bottom: 20px;
+        // width: 0px;
 
+    }
+
+    .olla{
+        margin-left: 0px;
+        // width: 0px;
     }
            
             .row{
@@ -808,7 +821,13 @@ h2{
     p{
 
         font-size: 12px;
+        width: 268px;
 
+    }
+
+    .olla{
+        margin-left: 43px;
+        width: 242px;
     }
 
     .container{
@@ -931,6 +950,19 @@ h2{
             height: 15vh;
         }
 
+    }
+
+    .about{
+
+        p{
+            width: 386px;
+        }
+
+        .olla{
+
+            margin-left: 22px;
+            width: 362px;
+        }
     }
 
     .contact{

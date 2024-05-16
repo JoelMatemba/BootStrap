@@ -179,7 +179,11 @@
   color: #ffffff;
 }
 .about p {
-  font-size: 20px;
+  font-size: 18px;
+  width: 362px;
+}
+.about .olla {
+  margin-left: 125px;
 }
 .about .row {
   margin-left: 52px;
@@ -316,7 +320,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 25px;
+  padding: 22px;
 }
 .contact .forms {
   padding-top: 12px;
@@ -400,6 +404,9 @@
     padding-right: 50px;
     margin: 0px;
     padding-bottom: 20px;
+  }
+  .about .olla {
+    margin-left: 0px;
   }
   .about .row {
     margin-left: 0px;
@@ -521,6 +528,11 @@
   }
   .about p {
     font-size: 12px;
+    width: 268px;
+  }
+  .about .olla {
+    margin-left: 43px;
+    width: 242px;
   }
   .about .container {
     padding: 0px;
@@ -576,6 +588,13 @@
   }
   .portfolio img {
     height: 15vh;
+  }
+  .about p {
+    width: 386px;
+  }
+  .about .olla {
+    margin-left: 22px;
+    width: 362px;
   }
   .contact .message {
     width: 600px;
